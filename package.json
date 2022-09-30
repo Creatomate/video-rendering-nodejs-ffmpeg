@@ -1,0 +1,20 @@
+{
+  "name": "video-rendering-nodejs-ffmpeg",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Video Rendering with Node.js and FFmpeg",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casper Kloppenburg",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
